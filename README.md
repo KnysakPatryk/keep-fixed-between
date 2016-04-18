@@ -8,7 +8,7 @@ It works in any browser (even IE) and does not need to be wrapped in a div.
 * Easy to customize
 
 ### Examples
-[First](http://to.do)
+[First](http://superserwer.usermd.net/github/keep-fixed-between/examples/first.html)
 
 ### Installation
 With NPM
