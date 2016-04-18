@@ -28,3 +28,7 @@ It's really simple
             bottomElement: "#bottomElement"
         });
     };
+	
+### To do
+- [ ] Adjustable margin for fixed element
+- [ ] Unit tests
