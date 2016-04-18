@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            font-size: 35px;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        #first, #fourth {
+            background: grey;
+            height: 1500px;
+        }
+
+        #second {
+            background: darkorange;
+            height: 450px;
+        }
+
+        #third {
+            background-color: chartreuse;
+            height: 250px;
+        }
+
+        #fixed {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            border: 3px solid cornflowerblue;
+            background-color: rosybrown;
+        }
+
+        #content {
+            height: 1500px;
+            color: lightgrey;
+        }
+    </style>
+
+    <script type="text/javascript" src="../keep-fixed-between.js"></script>
+
+    <script>
+        window.onload = function () {
+            keepFixedBetween({
+                fixedElement: "#fixed",
+                topElement: "#second",
+                bottomElement: "#third"
+            });
+        };
+    </script>
+</head>
+<body>
+    <div id="first">
+        first
+    </div>
+
+    <div id="second">
+        second - don't go above this div
+    </div>
+
+    <div id="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus erat justo, vestibulum quis elit ac, dictum sollicitudin nisi.</p>
+    </div>
+
+    <div id="third">
+        third - don't go below this div
+    </div>
+
+    <div id="fourth">
+        fourth
+    </div>
+
+    <div id="fixed">
+        Hello! I'm a fixed div!
+    </div>
+</body>
+</html>
