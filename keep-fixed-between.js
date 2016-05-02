@@ -10,8 +10,8 @@ window.keepFixedBetween = (function (options) {
     var fixedElement = document.querySelector(options.fixedElement),
         topElement = document.querySelector(options.topElement),
         bottomElement = document.querySelector(options.bottomElement),
-		topMargin = (options.topMargin !== undefined) ? options.topMargin : 0,
-		bottomMargin = (options.bottomMargin !== undefined) ? options.bottomMargin : 0,
+        topMargin = (options.topMargin !== undefined) ? options.topMargin : 0,
+        bottomMargin = (options.bottomMargin !== undefined) ? options.bottomMargin : 0,
         fixedElementBox, topElementBox, bottomElementBox;
 
     function init() {

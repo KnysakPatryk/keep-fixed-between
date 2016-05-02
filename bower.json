@@ -1,5 +1,7 @@
 {
   "name": "keep-fixed-between",
-  "main": ["keep-fixed-between.js"],
+  "main": [
+    "keep-fixed-between.js"
+  ],
   "version": "1.0.4"
 }
