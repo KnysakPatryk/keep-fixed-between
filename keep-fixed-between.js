@@ -37,7 +37,7 @@ window.keepFixedBetween = (function (options) {
     }
 
     function keepAwayFromBottom() {
-        if (fixedElementBox.bottom > bottomElementBox.top) {
+        if (fixedElementBox.bottom >= bottomElementBox.top) {
             fixedElement.style.bottom = (window.innerHeight - bottomElementBox.top) + "px";
         }
     }
