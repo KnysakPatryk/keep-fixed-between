@@ -1,7 +1,7 @@
 {
   "name": "keep-fixed-between",
   "description": "Keeps element with position fixed only between two divs.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Patryk Knysak",
     "url": "https://github.com/KnysakPatryk"
@@ -22,6 +22,7 @@
     "position",
     "css",
     "position-sticky",
-    "javascript"
+    "javascript",
+	"keep-fixed-between"
   ]
 }
