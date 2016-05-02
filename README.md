@@ -30,6 +30,6 @@ It's really simple
     };
 	
 ### To do
-- [ ] Get rid of removeAttribute('style') usage
+- [x] Get rid of removeAttribute('style') usage - v1.0.3
 - [ ] Adjustable margin for fixed element
 - [ ] Unit tests

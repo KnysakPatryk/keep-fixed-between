@@ -20,7 +20,7 @@ window.keepFixedBetween = (function (options) {
     }
 
     function moveElement() {
-        fixedElement.removeAttribute('style');
+        fixedElement.style.bottom = null;
 
         fixedElementBox = fixedElement.getBoundingClientRect();
         topElementBox = topElement.getBoundingClientRect();
