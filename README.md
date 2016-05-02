@@ -38,5 +38,5 @@ It's really simple
 	
 ### To do
 - [x] Get rid of removeAttribute('style') usage - v1.0.3
-- [ ] Adjustable margin for fixed element - v1.0.4
+- [x] Adjustable margin for fixed element - v1.0.4
 - [ ] Unit tests
