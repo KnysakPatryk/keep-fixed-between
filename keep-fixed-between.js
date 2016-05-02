@@ -10,6 +10,8 @@ window.keepFixedBetween = (function (options) {
     var fixedElement = document.querySelector(options.fixedElement),
         topElement = document.querySelector(options.topElement),
         bottomElement = document.querySelector(options.bottomElement),
+		topMargin = (options.topMargin !== undefined) ? options.topMargin : 0, 
+		bottomMargin = (options.bottomMargin !== undefined) ? options.bottomMargin : 0,
         fixedElementBox, topElementBox, bottomElementBox;
 
     function init() {
@@ -32,13 +34,14 @@ window.keepFixedBetween = (function (options) {
 
     function keepAwayFromTop() {
         if (fixedElementBox.top <= topElementBox.bottom) {
-            fixedElement.style.bottom = (window.innerHeight - topElementBox.bottom - fixedElementBox.height) + "px";
+			console.log(topMargin);
+            fixedElement.style.bottom = (window.innerHeight - topElementBox.bottom - fixedElementBox.height - topMargin) + "px";
         }
     }
 
     function keepAwayFromBottom() {
         if (fixedElementBox.bottom >= bottomElementBox.top) {
-            fixedElement.style.bottom = (window.innerHeight - bottomElementBox.top) + "px";
+            fixedElement.style.bottom = (window.innerHeight - bottomElementBox.top + topMargin) + "px";
         }
     }
 

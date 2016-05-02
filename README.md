@@ -23,13 +23,20 @@ It's really simple
 
     window.onload = function () {
         keepFixedBetween({
-            fixedElement: "#fixed",
+            fixedElement: "#fixed", 
             topElement: "#topElement",
             bottomElement: "#bottomElement"
         });
     };
 	
+### Parameters
+* fixedElement *(required)* - element to move, with fixed position
+* topElement *(required)* - top element, fixed element will not go over it
+* bottomElement *(required)* - bottom element, fixed element will not go under it
+* topMargin *(optional)* - margin in pixels between top element and fixed element
+* bottomMargin *(optional)* - margin in pixels between bottom element and fixed element
+	
 ### To do
 - [x] Get rid of removeAttribute('style') usage - v1.0.3
-- [ ] Adjustable margin for fixed element
+- [ ] Adjustable margin for fixed element - v1.0.4
 - [ ] Unit tests
