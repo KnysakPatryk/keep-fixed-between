@@ -36,10 +36,13 @@ It's really simple
 * topMargin *(optional)* - margin in pixels between top element and fixed element
 * bottomMargin *(optional)* - margin in pixels between bottom element and fixed element
 
-### To do
+### Changelog
 - [x] Get rid of removeAttribute('style') usage - v1.0.3
-- [x] Adjustable margin for fixed element - v1.0.4
-- [ ] Unit tests
+- [x] Adjustable margin for fixed element - v1.0.5
+- [x] Gulp minify task - v1.0.6
+
+### To do
+- Empty for now
 
 ## License
 The library is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

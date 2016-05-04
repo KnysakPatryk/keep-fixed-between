@@ -3,5 +3,18 @@
   "main": [
     "keep-fixed-between.js"
   ],
-  "version": "1.0.5"
+  "version": "1.0.6",
+  "keywords": [
+    "fixed",
+    "sticky",
+    "position",
+    "css",
+    "position-sticky",
+    "javascript",
+    "keep-fixed-between"
+  ],
+  "authors": [
+    "Patryk Knysak <https://github.com/KnysakPatryk>"
+  ],
+  "license": "MIT"
 }

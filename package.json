@@ -1,7 +1,7 @@
 {
   "name": "keep-fixed-between",
   "description": "Keeps element with position fixed only between two divs.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": {
     "name": "Patryk Knysak",
     "url": "https://github.com/KnysakPatryk"
@@ -23,6 +23,12 @@
     "css",
     "position-sticky",
     "javascript",
-	"keep-fixed-between"
-  ]
+    "keep-fixed-between"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  }
 }
