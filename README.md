@@ -37,9 +37,10 @@ It's really simple
 * bottomMargin *(optional)* - margin in pixels between bottom element and fixed element
 
 ### Changelog
-- [x] Get rid of removeAttribute('style') usage - v1.0.3
-- [x] Adjustable margin for fixed element - v1.0.5
-- [x] Gulp minify task - v1.0.6
+- Get rid of removeAttribute('style') usage - v1.0.3
+- Adjustable margin for fixed element - v1.0.5
+- Gulp minify task - v1.0.6
+- Bug fix - v1.0.7
 
 ### To do
 - Empty for now

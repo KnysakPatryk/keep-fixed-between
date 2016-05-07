@@ -33,13 +33,13 @@ window.keepFixedBetween = (function (options) {
     }
 
     function keepAwayFromTop() {
-        if (fixedElementBox.top <= topElementBox.bottom) {
+        if (fixedElementBox.top <= topElementBox.bottom + topMargin) {
             fixedElement.style.bottom = (window.innerHeight - topElementBox.bottom - fixedElementBox.height - topMargin) + "px";
         }
     }
 
     function keepAwayFromBottom() {
-        if (fixedElementBox.bottom >= bottomElementBox.top) {
+        if (fixedElementBox.bottom >= bottomElementBox.top - bottomMargin) {
             fixedElement.style.bottom = (window.innerHeight - bottomElementBox.top + bottomMargin) + "px";
         }
     }
