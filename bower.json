@@ -3,7 +3,7 @@
   "main": [
     "keep-fixed-between.js"
   ],
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "fixed",
     "sticky",

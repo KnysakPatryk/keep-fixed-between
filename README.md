@@ -40,7 +40,7 @@ It's really simple
 - Get rid of removeAttribute('style') usage - v1.0.3
 - Adjustable margin for fixed element - v1.0.5
 - Gulp minify task - v1.0.6
-- Margin bug fix - v1.0.7
+- Margin bug fix - v1.0.8
 
 ### To do
 - Empty for now
